@@ -68,6 +68,10 @@ li a{
     color: #474747;
     margin-bottom: 5px;
 }
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 .banner-tittle{
     font-size: 85px;
     font-weight: 700px;
@@ -78,4 +82,23 @@ li a{
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0px;
+}
+.about-info-containar{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.info-tittle{
+    color: #757575;
+    
+}
+.about-info{
+    text-align: center;
+    font-weight: bold;
+}
+#what-i-do{
+    padding: 30px 150px;
+}
+.skill-containar{
+    display: flex;
 }
